@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Professionals from '../Professionals/Professionals.jsx';
+// import Professionals from '../Professionals/Professionals.jsx';
 import Dating from '../Dating/Dating.jsx';
-import ProjectResourcePerson from './ProjectResourcePerson.jsx';
-import Sales from './Sales.jsx';
+// import ProjectResourcePerson from './ProjectResourcePerson.jsx';
 import Jobs from './Jobs.jsx';
 import img from "../Asset/img.png";
 import xooth_logo from "../Asset/xooth_logo.png";
