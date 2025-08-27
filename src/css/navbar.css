@@ -1,0 +1,54 @@
+#head {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(2, 2, 39);
+    position: fixed;
+    color: #fff;
+    width: 100vw;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding-left: 65vw;
+}
+
+nav ul li a {
+    color:  #ffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav ul button{
+    background-color: #fff;
+    width: 8vw;
+    height: 4.3vh;
+    color:  rgb(1, 1, 20);
+}
+
+nav ul button:hover{
+    color: blue;
+}
+
+/* Toggle button style */
+.toggle-button {
+    display: none;
+    background: none;
+    border: none;
+    color: #303030;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+  
+}

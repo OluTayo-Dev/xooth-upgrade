@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 4px;
+    display: flex;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  li {
+    list-style-type: none;
+  }
+
+  /* Mobile devices (breaks into two columns) */
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    
+
+    a {
+        font-size: 15px;
+        gap:2rem;
+      }
+    
+  }
+  
+
+
+@media screen and (max-width: 540px) {
+    button {
+      margin-left: 10rem;
+      
+    }
+  
+
+  }
+  
+  /* Extra Small <= 576px */
+  
+  @media screen and (max-width: 280px) {
+    .button {
+      margin-left: none;
+    }
+  }
+  
+  .App {
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #525AA0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    color:blue
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+    
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+}

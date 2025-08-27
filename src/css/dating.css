@@ -1,0 +1,52 @@
+
+.contact{
+    gap:1rem;
+}
+
+.dating-class{
+    display: flex;
+}
+.image{
+    width: 100%;
+    height:30vh;
+    margin-bottom: 2rem;
+}
+
+.image img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.bio{
+    width:100%;
+    margin-top:1.5rem;
+    margin-left: 5px;
+}
+
+.bio p{
+    padding:3px;
+    font-size: 12px;
+}
+
+
+.details-class{
+    width:100%;
+    margin:0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+  
+
+  
+  .icon {
+    font-size: 15px; /* Adjust icon size */
+  }
+  
+
+ @media screen and(max-width: 540px) {
+    .details-class button{
+        margin-left: 10rem;
+    }
+ }
